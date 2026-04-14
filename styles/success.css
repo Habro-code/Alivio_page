@@ -45,12 +45,13 @@
 
 .success__content-video {
     max-width: 790px;
-    height: 455px;
+    max-height: 455px;
     display: flex;
     position: relative;
     aspect-ratio: 158/91;
     border-radius: 14px;
     overflow: hidden;
+    object-fit:contain;
 }
 
 .success__play {
