@@ -19,7 +19,11 @@ a {
     color: unset
 }
 
-h1, h2, h3, p{
+h1,
+h2,
+h3,
+p,
+figure {
     margin: 0;
 }
 
@@ -54,11 +58,11 @@ h1, h2, h3, p{
     cursor: pointer;
 }
 
-.btn--signin{
+.btn--signin {
     background-color: var(--color-white);
     color: var(--color-black);
 }
 
-.btn--signin:hover{
+.btn--signin:hover {
     outline: 0;
 }
