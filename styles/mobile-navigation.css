@@ -12,7 +12,7 @@
 .mobile-navigation__menu {
     position: fixed;
     background-color: var(--color-white);
-    padding: 30px 100px 10px;
+    padding: 30px 80px 10px;
     inset: 0;
     z-index: 998;
     translate: -100% 0;
@@ -31,7 +31,7 @@
 }
 
 .mobile-navigation-item {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
 }
 
