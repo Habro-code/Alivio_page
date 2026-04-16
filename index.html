@@ -16,10 +16,17 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <svg class="logo">
-                    <use href="assets/sprites.svg#logo-icon"></use>
-                </svg>
+                <div class="header__blok-burger-and-icon">
+                    <label for="mobile-nav-toggler">
+                        <svg class="header__burger">
+                            <use href="assets/sprites.svg#burger-icon"></use>
+                        </svg>
+                    </label>
 
+                    <svg class="logo">
+                        <use href="assets/sprites.svg#logo-icon"></use>
+                    </svg>
+                </div>
                 <nav class="header__nav">
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
@@ -46,12 +53,6 @@
     </header>
 
     <div class="mobile-navigation">
-        <label for="mobile-nav-toggler">
-            <svg class="mobile-navigation__burger">
-                <use href="assets/sprites.svg#burger-icon"></use>
-            </svg>
-        </label>
-
         <input type="checkbox" class="mobile-navigation__toggler" id="mobile-nav-toggler">
 
         <nav class="mobile-navigation__menu">
@@ -71,13 +72,13 @@
             </ul>
 
             <label for="mobile-nav-toggler" class="mobile-navigation__close">
-            <svg class="mobile-navigation__cross">
-                <use href="assets/sprites.svg#cross-icon"></use>
-            </svg>
-        </label>
+                <svg class="mobile-navigation__cross">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
         </nav>
 
-        
+
     </div>
 
     <main>

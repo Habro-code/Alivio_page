@@ -14,15 +14,9 @@
 
 }
 
-.pricing__nav {}
-
-.pricing__nav-list {}
-
 .pricing__nav-item {
     font-weight: 400;
     font-size: 25px;
     color: var(--color-white);
     margin: 60px 0 0 0 ;
 }
-
-.pricing__nav-link {}
